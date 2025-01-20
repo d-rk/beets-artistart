@@ -1,2 +1,3 @@
-from pkgutil import extend_path
-__path__ = extend_path(__path__, __name__)
+# -*- coding: utf-8 -*-
+"""Package for the beets-artistart plugin."""
+__import__('pkg_resources').declare_namespace(__name__)
