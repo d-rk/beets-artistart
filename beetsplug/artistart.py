@@ -27,7 +27,7 @@ from mediafile import image_mime_type
 import shutil
 
 from beets import config, importer, plugins, ui, util
-from beets.util import bytestring_path, sorted_walk, syspath
+from beets.util import bytestring_path, get_temp_filename, sorted_walk, syspath
 from beets.util.artresizer import ArtResizer
 
 try:
